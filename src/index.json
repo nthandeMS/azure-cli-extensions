@@ -5916,7 +5916,7 @@
             {
                 "downloadUrl": "https://azurecliext.blob.core.windows.net/release/azure_cli_ml-1.5.0-py2.py3-none-any.whl",
                 "filename": "azure_cli_ml-1.5.0-py2.py3-none-any.whl",
-                "metadata": { 
+                "metadata": {
                     "azext.maxCliCoreVersion": "2.29.2",
                     "azext.minCliCoreVersion": "2.0.28",
                     "classifiers": [
@@ -18992,6 +18992,58 @@
                     "version": "2.0.3"
                 },
                 "sha256Digest": "3eac9a5c8ee9e78151d9bbcc54eb978a1987f6fd7c1beef0b4a575113f0a4466"
+            },
+            {
+                "downloadUrl": "https://azuremlsdktestpypi.blob.core.windows.net/wheels/sdk-cli-v2-public/ml-2.0.4-py3-none-any.whl",
+                "filename": "ml-2.0.4-py3-none-any.whl",
+                "metadata": {
+                    "azext.isPreview": true,
+                    "azext.minCliCoreVersion": "2.15.0",
+                    "extensions": {
+                        "python.details": {
+                            "contacts": [
+                                {
+                                    "email": "azpycli@microsoft.com",
+                                    "name": "Microsoft Corporation",
+                                    "role": "author"
+                                }
+                            ],
+                            "document_names": {
+                                "description": "DESCRIPTION.rst"
+                            },
+                            "project_urls": {
+                                "Home": "https://github.com/Azure/azure-cli-extensions/tree/master/src/machinelearningservices"
+                            }
+                        }
+                    },
+                    "extras": [],
+                    "generator": "bdist_wheel (0.30.0)",
+                    "license": "MIT",
+                    "metadata_version": "2.0",
+                    "name": "ml",
+                    "run_requires": [
+                        {
+                            "requires": [
+                                "azure-common (<2.0.0,>=1.1)",
+                                "azure-identity",
+                                "azure-storage-blob (<=12.9.0,>12.0.0b4)",
+                                "azure-storage-file-share (<13.0.0)",
+                                "cryptography (<=3.3.2)",
+                                "docker (>=4.0.0,~=5.0.0)",
+                                "isodate",
+                                "marshmallow (<4.0.0,>=3.5)",
+                                "pathspec (==0.8.*)",
+                                "pydash (<=4.9.0)",
+                                "pyjwt (<2.0.0)",
+                                "tqdm",
+                                "typing-extensions (<4.0.0,>=3.10)"
+                            ]
+                        }
+                    ],
+                    "summary": "Microsoft Azure Command-Line Tools AzureMachineLearningWorkspaces Extension",
+                    "version": "2.0.4"
+                },
+                "sha256Digest": "3c07012b00bfb463bba0e99e8294e90d960c21a11152690574fd050ca63489d2"
             }
         ],
         "monitor-control-service": [
